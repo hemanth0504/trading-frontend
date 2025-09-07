@@ -117,7 +117,7 @@ const StockDetails = () => {
 
               <Dialog>
                 <DialogTrigger>
-                  <Button size="lg">TREAD</Button>
+                  <Button size="lg">TRADE</Button>
                 </DialogTrigger>
                 <DialogContent className="">
                   <DialogHeader className="">
