@@ -125,7 +125,7 @@ const StockDetails = () => {
                       how much do you want to spend?
                     </DialogTitle>
                   </DialogHeader>
-                  <tradingForm />
+                  <TradingForm />
                 </DialogContent>
               </Dialog>
             </div>

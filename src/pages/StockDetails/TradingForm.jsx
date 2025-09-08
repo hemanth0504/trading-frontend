@@ -10,7 +10,7 @@ import { DollarSign } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-const tradingForm = () => {
+const TradingForm = () => {
   const { coin, asset, wallet } = useSelector((store) => store);
   const [quantity, setQuantity] = useState(0);
   const [amount, setAmount] = useState(0);
@@ -172,4 +172,4 @@ const tradingForm = () => {
   );
 };
 
-export default tradingForm;
+export default TradingForm;
